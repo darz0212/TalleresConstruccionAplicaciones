@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <EditText
+            android:id="@+id/todoText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Message"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <EditText
+            android:id="@+id/personasText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/addPersonasButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Person"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:id="@+id/textViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MESSAGES:" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:id="@+id/textViewPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PEOPLE:" />
+    <ListView
+        android:id="@+id/personListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+
+</LinearLayout>
