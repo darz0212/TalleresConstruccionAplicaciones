@@ -5,12 +5,12 @@
         Your Facebook App ID. See README.
     -->
     <!--  TODO(developer): REPLACE -->
-    <string name="facebook_app_id">REPLACE_ME</string>
+    <string name="facebook_app_id">1283984271733331</string>
 
     <!--
       Your Twitter Key and Secret, see README.
     -->
     <!-- TODO(developer): REPLACE -->
-    <string name="twitter_consumer_key">REPLACE_ME</string>
-    <string name="twitter_consumer_secret">REPLACE_ME</string>
+    <string name="twitter_consumer_key">zguVJXii1oKBL0U1rbUIiMASq</string>
+    <string name="twitter_consumer_secret">soA44QCERc9afWonXKzWbCMPHMekTDwSHbB45uTYLcSZ0FyI5f</string>
 </resources>
